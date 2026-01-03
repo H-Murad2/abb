@@ -1,0 +1,145 @@
+p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.slider-container{
+    border-radius: 20px;
+}
+.order-btn{
+    border-radius: 10px;
+}
+.order-btn:hover{
+    border: 2px solid white;
+}
+.digicard-btn{
+    border-radius: 5px;
+}
+.sol{
+    font-size: 15px;
+     border-radius: 50%;
+}
+.sag{
+    font-size: 15px;
+     border-radius: 50%;
+}
+.page7{
+    border-radius: 50%;
+}
+
+.d-main .d-slider{
+    display: none;
+}
+.d-header{
+    display: none;
+}
+.card-order-btn{
+    border-radius: 10px;
+}
+.card-order-btn:hover{ 
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+} 
+.l-part{
+    line-height: 1.2;
+}
+ #phone,#fin{
+    border: 1px solid #969696;
+    width: 48%;
+    height: 60px;
+    border-radius: 10px;
+} 
+#fin::placeholder {
+    padding-left: 10px;
+}
+#phone::placeholder {
+  padding-left: 10px;
+}
+input[type="checkbox"] {
+
+  width: 24px;
+  height: 24px;
+}
+.join-btn button{
+    border-radius: 10px;
+}
+#learn{
+    background: linear-gradient(to right, #6a96f1 0%, #2b056d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: -1px;
+}
+.continue{
+    border-radius: 10px;
+}
+
+.img:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}
+.comps >*{
+    border-radius: 20px;
+}
+.text{
+    line-height: 1.2;
+} 
+.arrows{
+    display: flex;
+    gap: 10px;
+}
+.arrows .left,.arrows .right{
+    border: 1px solid black;
+    padding: 10px;
+    width: 40px;
+    border-radius: 50%;
+}  
+.arrows .left:hover,.arrows .right:hover{
+    background-color: #e7e6e6;
+}  
+.ad-img img {
+    border: 10px solid white;
+}
+#mailiyye1{
+    border: 1px solid #134fc2;
+    padding:5px 10px;
+    background-color: #134fc2;
+    border-radius: 10px;
+}
+#mailiyye1:hover{
+    background-color: #426098;
+}
+#f-btn
+{
+    background-color: white;
+    padding: 7px 4px;
+}
+#f-btn1
+{
+    background-color: #134fc2;
+    padding: 6px 9px;
+}
+@media only screen and (min-width: 768px) {
+    .m-slider,
+    .m-header{
+        display: none;
+    }
+    .d .m-order{
+        display: none;
+    }
+.d-main .d-slider{
+    display: grid;
+}
+    
+    .d-main{
+        display: block;
+    }
+    .d-header{
+        display: block;
+    }
+    .header-btn{
+        border-radius: 20px;
+    }
+    
+        
+}

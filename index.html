@@ -1,0 +1,1676 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ABB</title>
+  </head>
+  <body>
+    <div class="fixed left-4 bottom-5 z-50">
+    <img
+        src="img/abs1.svg"
+        alt="Accessibility"
+        class="w-12 h-12 cursor-pointer hover:scale-105 transition bg-[#2142e7] rounded-full" 
+    />
+    </div>
+    <div class="fixed right-4 bottom-5 z-50">
+    <img
+        src="img/abs2.webp"
+        alt="Chat"
+        class="w-12 h-12 cursor-pointer hover:scale-105 transition bg-[#2142e7] rounded-full p-2"
+    />
+    </div>
+    <header class="fixed top-0 left-0 w-full z-50 bg-white">
+      <div class="m-header">
+        <div class="container flex justify-between items-center py-4 px-3">
+          <div class="logo">
+            <div class="img">
+              <img src="img/logo.png" class="w-14" alt="" />
+            </div>
+          </div>
+          <div class="menu flex justify-between items-center gap-6.5 pr-4">
+            <p class="text-[#7a7d82] text-[16px]">AZ</p>
+            <p class="text-[#7a7d82] text-[16px]">
+              <i class="fa-solid fa-phone"></i>937
+            </p>
+            <div class="bars flex">
+              <i class="fa-solid fa-bars text-[18px]"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-header bg-white">
+        <div
+          class="container mx-auto flex justify-between items-center px-6 py-4"
+        >
+          <div class="logo">
+            <img src="img/logo.png" class="w-24" alt="Logo" />
+          </div>
+          <nav class="menu pr-50">
+            <ul class="flex items-center gap-8">
+              <li>
+                <a
+                  href="#"
+                  class="text-[#1f2937] hover:text-[#1b63ed] transition"
+                >
+                  Fərdi
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#1f2937] hover:text-[#1b63ed] transition"
+                >
+                  Bizness
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#1f2937] hover:text-[#1b63ed] transition"
+                >
+                  Haqqımızda
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#1f2937] hover:text-[#1b63ed] transition"
+                >
+                  İnvestorlarla Əlaqə
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div
+            class="contact flex justify-between items-center gap-10 text-[#7a7d82] text-[20px]"
+          >
+            <p>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </p>
+            <p>AZ</p>
+            <p><i class="fa-solid fa-phone"></i>937</p>
+            <button
+              class="header-btn bg-[#134fc2] w-50 py-2 text-white! flex justify-center items-center text-[15px]"
+            >
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Xidmət Şəbəkələri</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="bg-[#ffffff]">
+      <div class="m-main pt-3">
+        <div class="m-slider">
+          <div
+            class="slider-container relative ml-3 mr-3 mb-3 h-[65vh] bg-[#1b63ed] rounded-2xl overflow-hidden"
+          >
+            <div class="slider-text p-5 text-white font-sans max-w-md">
+              <button class="bg-[#407cf0] py-1 px-3 text-[13px] rounded-md">
+                Tam DigiCard
+              </button>
+
+              <p class="pb-5 pt-3 text-[20px] font-semibold">Tam DigiCard</p>
+
+              <p class="pb-6 text-[16px] leading-relaxed">
+                Kartınızı onlayn sifariş edin və fürsətlərdən faydalanın!
+              </p>
+
+              <button
+                class="text-black bg-white px-5 py-3 rounded-xl font-medium hover:bg-[#407cf0] hover:text-white"
+              >
+                Onlayn sifariş edin
+              </button>
+            </div>
+            <div class="slider-img absolute bottom-4 right-4 w-36 md:w-44">
+              <img src="img/img1.png" alt="Card Image" />
+            </div>
+            <div
+              class="slider-pagination absolute bottom-4 left-4 flex items-center gap-2 text-white"
+            >
+              <button class="rounded-full bg-[#1955c9] p-3">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+
+              <button
+                class="text-[15px] bg-[#1955c9] font-bold px-5 py-3 rounded-full"
+              >
+                7
+              </button>
+              <button class="rounded-full bg-[#1955c9] p-3">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d">
+        <!--Cards-->
+        <div
+          class="d-main w-full overflow-x-hidden bg-[#dddedf] py-10 font-sans"
+        >
+          <div class="container mx-auto px-4 md:px-10 lg:px-20 pb-20">
+            <div class="d-slider grid grid-cols-1 lg:grid-cols-12 gap-6 mb-6">
+              <div
+                class="lg:col-span-8 relative min-h-95 bg-[#1b63ed] rounded-3xl overflow-hidden p-8 text-white flex flex-col justify-between"
+              >
+                <div class="max-w-md relative z-10">
+                  <button
+                    class="bg-[#407cf0] py-1 px-4 text-sm rounded-lg mb-4"
+                  >
+                    Tam DigiCard
+                  </button>
+                  <h2 class="text-3xl md:text-5xl font-bold mb-4 leading-tight">
+                    Tam DigiCard
+                  </h2>
+                  <p class="text-lg opacity-90 mb-8">
+                    Kartınızı onlayn sifariş edin və fürsətlərdən faydalanın!
+                  </p>
+                  <button
+                    class="order-btn bg-white text-black px-8 py-3 rounded-xl font-bold hover:bg-[#1b63ed] hover:text-white transition-all w-fit"
+                  >
+                    Onlayn sifariş edin
+                  </button>
+                </div>
+                <img
+                  src="img/img1.png"
+                  alt="Card"
+                  class="absolute bottom-0 right-0 w-64 md:w-80 object-contain z-0"
+                />
+
+                <div class="absolute top-6 right-6 flex items-center gap-2">
+                  <button
+                    class="w-10 h-10 rounded-full bg-[#1955c9] flex items-center justify-center"
+                  >
+                    <i class="fa-solid fa-arrow-left text-white"></i>
+                  </button>
+                  <span
+                    class="bg-[#1955c9] px-5 py-2 rounded-full font-bold text-sm"
+                    >7</span
+                  >
+                  <button
+                    class="w-10 h-10 rounded-full bg-[#1955c9] flex items-center justify-center"
+                  >
+                    <i class="fa-solid fa-arrow-right text-white"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="lg:col-span-4">
+                <div
+                  class="bg-white p-6 rounded-3xl relative h-full shadow-sm border border-gray-100 group overflow-hidden min-h-75 lg:min-h-0"
+                >
+                  <div class="relative z-10">
+                    <h3 class="text-2xl font-bold text-gray-900">
+                      DigiDeposit
+                    </h3>
+                    <p class="text-gray-500 text-base mt-3 max-w-50">
+                      ABB mobile tətbiqindən əmanət hesabınızı onlayn açın
+                    </p>
+                  </div>
+                  <i
+                    class="fa-solid fa-arrow-up-right-from-square absolute top-6 right-6 text-gray-400 bg-gray-50 p-3 rounded-full text-xs"
+                  ></i>
+                  <img
+                    src="img/c-img1.png"
+                    class="w-40 absolute bottom-0 right-0 transition-transform duration-300 group-hover:scale-110"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16"
+            >
+              <div
+                class="bg-white p-6 rounded-3xl relative h-55 shadow-sm border border-gray-100 group overflow-hidden"
+              >
+                <h3 class="text-xl font-bold text-gray-900">ABB Biz</h3>
+                <p class="text-gray-500 text-sm mt-2 max-w-45">
+                  Kiçik bizneslər üçün xidmətlər. Mobil tətbiqi yükləyin.
+                </p>
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square absolute top-5 right-5 text-gray-400 bg-gray-50 p-3 rounded-full text-xs"
+                ></i>
+                <img
+                  src="img/c-img2.png"
+                  class="w-24 absolute bottom-0 right-2 transition-transform duration-300 group-hover:scale-110"
+                />
+              </div>
+
+              <div
+                class="bg-white p-6 rounded-3xl relative h-55 shadow-sm border border-gray-100 group overflow-hidden"
+              >
+                <h3 class="text-xl font-bold text-gray-900">Nağd Kredit</h3>
+                <p class="text-gray-500 text-sm mt-2 max-w-50">
+                  Təcili pul ehtiyacınız üçün sərfəli kredit müraciəti edin
+                </p>
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square absolute top-5 right-5 text-gray-400 bg-gray-50 p-3 rounded-full text-xs"
+                ></i>
+                <img
+                  src="img/c-img3.png"
+                  class="w-32 absolute bottom-0 right-0 transition-transform duration-300 group-hover:scale-110"
+                />
+              </div>
+
+              <div
+                class="bg-white p-6 rounded-3xl relative h-55 shadow-sm border border-gray-100 group overflow-hidden"
+              >
+                <h3 class="text-xl font-bold text-gray-900">ABB mobile</h3>
+                <p class="text-gray-500 text-sm mt-2 max-w-50">
+                  Bank əməliyyatlarını sadə və sürətli şəkildə tamamlayın
+                </p>
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square absolute top-5 right-5 text-gray-400 bg-gray-50 p-3 rounded-full text-xs"
+                ></i>
+                <img
+                  src="img/c-img4.png"
+                  class="w-32 absolute bottom-0 right-0 transition-transform duration-300 group-hover:scale-110"
+                />
+              </div>
+            </div>
+
+            <div class="text-center">
+              <p class="text-gray-400 text-lg mb-10 font-medium">
+                Sürətli keçidlər
+              </p>
+              <div class="flex flex-wrap justify-center gap-8 md:gap-16">
+                <div
+                  class="flex flex-col items-center group cursor-pointer w-27.5"
+                >
+                  <img
+                    src="img/c-img5.png"
+                    class="w-16 h-16 mb-4 transition-transform group-hover:-translate-y-2"
+                  />
+                  <p class="text-sm font-semibold text-gray-700">
+                    İpoteka krediti
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col items-center group cursor-pointer w-27.5"
+                >
+                  <img
+                    src="img/c-img6.png"
+                    class="w-16 h-16 mb-4 transition-transform group-hover:-translate-y-2"
+                  />
+                  <p class="text-sm font-semibold text-gray-700">
+                    Debet kartlar
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col items-center group cursor-pointer w-27.5"
+                >
+                  <img
+                    src="img/c-img7.png"
+                    class="w-16 h-16 mb-4 transition-transform group-hover:-translate-y-2"
+                  />
+                  <p class="text-sm font-semibold text-gray-700">
+                    Kredit kartları
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col items-center group cursor-pointer w-27.5"
+                >
+                  <img
+                    src="img/c-img8.png"
+                    class="w-16 h-16 mb-4 transition-transform group-hover:-translate-y-2"
+                  />
+                  <p class="text-sm font-semibold text-gray-700">Keşbek</p>
+                </div>
+                <div
+                  class="flex flex-col items-center group cursor-pointer w-27.5"
+                >
+                  <img
+                    src="img/c-img9.png"
+                    class="w-16 h-16 mb-4 transition-transform group-hover:-translate-y-2"
+                  />
+                  <p class="text-sm font-semibold text-gray-700 text-center">
+                    Filiallar və ATM-lər
+                  </p>
+                </div>
+                <div
+                  class="flex flex-col items-center group cursor-pointer w-27.5"
+                >
+                  <img
+                    src="img/c-img10.png"
+                    class="w-16 h-16 mb-4 transition-transform group-hover:-translate-y-2"
+                  />
+                  <p class="text-sm font-semibold text-gray-700 text-center">
+                    İnvestisiya
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Card Order-->
+        <div
+          class="order-card hidden md:flex justify-between items-center py-20 px-30 bg-white"
+        >
+          <div class="l-part">
+            <div class="logo flex items-center">
+              <div class="img">
+                <img src="img/tamcard.png" alt="" class="w-25 mr-5" />
+              </div>
+              <div class="text">
+                <p class="text-[70px]">Tam DigiCARD</p>
+              </div>
+            </div>
+            <div class="context">
+              <p class="text-[70px]">Tam rəqəmsal,</p>
+              <p class="text-[70px] pb-5">Tam real!</p>
+            </div>
+            <div class="species pb-5 flex justify-between">
+              <div class="asd">
+                <p class="text-[25px]">Pulsuz</p>
+                <p class="text-[#484a4f]">Qiymət</p>
+              </div>
+              <div class="das">
+                <p class="text-[25px]">10%-ə qədər</p>
+                <a class="text-[#1b63ed]" href="">Faydalı keşbek</a>
+              </div>
+              <div class="sdfsdf">
+                <p class="text-[25px]">*İllik 6% gəlir</p>
+                <p class="text-[#484a4f]">Faiz dərəcəsi</p>
+              </div>
+            </div>
+            <div>
+              <div class="py-7">
+                <button
+                  class="card-order-btn text-white bg-[#134fc2] px-5 py-3"
+                >
+                  Sifariş edin!
+                </button>
+              </div>
+
+              <p class="text-[#484a4f] pt-5">
+                *ABB mobile-da qeydiyyatdan keçmiş və kartını əlavə etmiş
+                müştərilərə aiddir
+              </p>
+            </div>
+          </div>
+          <div class="r-part">
+            <div class="img">
+              <img src="img/c-img11.png" alt="" class="w-120" />
+            </div>
+          </div>
+        </div>
+        <!--Mobile-->
+        <div
+          class="m-order flex flex-col md:flex-row items-center md:items-start gap-10 py-10 px-5 md:py-20 md:px-30 bg-white"
+        >
+          <div class="l-part w-full md:w-1/2">
+            <div class="logo flex items-center mb-6">
+              <img src="img/tamcard.png" alt="" class="w-16 md:w-25 mr-4" />
+              <p class="text-[32px] md:text-[70px] font-semibold">
+                Tam DigiCARD
+              </p>
+            </div>
+            <div class="context mb-6">
+              <p class="text-[28px] md:text-[70px]">Tam rəqəmsal,</p>
+              <p class="text-[28px] md:text-[70px]">Tam real!</p>
+            </div>
+            <div class="species flex flex-col sm:flex-row gap-6 sm:gap-10 pb-6">
+              <div>
+                <p class="text-[20px] md:text-[25px]">Pulsuz</p>
+                <p class="text-[#484a4f]">Qiymət</p>
+              </div>
+
+              <div>
+                <p class="text-[20px] md:text-[25px]">10%-ə qədər</p>
+                <a class="text-[#1b63ed]" href="">Faydalı keşbek</a>
+              </div>
+
+              <div>
+                <p class="text-[20px] md:text-[25px]">*İllik 6% gəlir</p>
+                <p class="text-[#484a4f]">Faiz dərəcəsi</p>
+              </div>
+            </div>
+            <button
+              class="card-order-btn w-full sm:w-auto text-white bg-[#134fc2] px-6 py-3 rounded-md"
+            >
+              Sifariş edin!
+            </button>
+            <p class="text-[#484a4f] pt-5 text-sm">
+              *ABB mobile-da qeydiyyatdan keçmiş və kartını əlavə etmiş
+              müştərilərə aiddir
+            </p>
+          </div>
+          <div class="r-part w-full md:w-1/2 flex justify-center">
+            <img src="img/c-img11.png" alt="" class="w-64 sm:w-80 md:w-120" />
+          </div>
+        </div>
+
+        <!--Credit-->
+        <div
+          class="credit hidden md:flex justify-between items-center px-30 pb-20 bg-white"
+        >
+          <div class="l-part pb-8">
+            <p class="text-[35px] font-bold">Kredit limitinizi</p>
+            <p class="text-[35px]" id="learn">öyrənin</p>
+            <p class="text-[#484a4f] text-[15px] mt-3">
+              50 000 AZN-dək krediti tam onlayn əldə edin!
+            </p>
+          </div>
+          <div class="r-part">
+            <form class="pl-10 pb-5" action="">
+              <input
+                class="mr-5"
+                type="text"
+                id="phone"
+                placeholder="Mobil nömrə"
+              />
+              <input type="text" id="fin" placeholder="FİN kod" />
+
+              <br />
+            </form>
+            <div class="checkbox flex justify-between items-center pl-10">
+              <input type="checkbox" id="checkbox" class="mr-3" />
+              <label for="">
+                <p class="text-[12px]">
+                  “Davam et” düyməsinə klikləməklə
+                  <a class="text-[#2265ed]" href="">
+                    Azərbaycan Kredit Bürosu</a
+                  >
+                  və
+                  <a class="text-[#2265ed]" href=""> ASAN Finans</a>
+                  vasitəsilə məlumatlarımın ABB-yə təqdim edilməsinə razılıq
+                  verirəm.
+                </p>
+              </label>
+              <button
+                class="continue text-[#808081] bg-[#ececec] w-40 py-3 ml-20"
+              >
+                Davam et
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--Mobile-->
+        <div class="m-credit-mobile block md:hidden bg-white px-5 py-10">
+          <p class="text-[26px] font-bold text-center">
+            Kredit limitinizi öyrənin
+          </p>
+
+          <p class="text-[#484a4f] text-[14px] text-center mt-2">
+            50 000 AZN-dək krediti tam onlayn əldə edin!
+          </p>
+
+          <form class="mt-6 flex flex-col gap-4">
+            <input
+              type="text"
+              placeholder="Mobil nömrə"
+              class="border px-4 py-3 rounded-md"
+            />
+
+            <input
+              type="text"
+              placeholder="FİN kod"
+              class="border px-4 py-3 rounded-md"
+            />
+
+            <label class="flex items-start gap-2 text-[12px]">
+              <input type="checkbox" class="mt-1" />
+              <span>
+                “Davam et” düyməsinə klikləməklə
+                <a class="text-[#2265ed]" href="">Azərbaycan Kredit Bürosu</a>
+                və
+                <a class="text-[#2265ed]" href="">ASAN Finans</a>
+                vasitəsilə məlumatlarımın ABB-yə təqdim edilməsinə razılıq
+                verirəm.
+              </span>
+            </label>
+
+            <button class="mt-4 bg-[#134fc2] text-white py-3 rounded-md">
+              Davam et
+            </button>
+          </form>
+        </div>
+
+        <!--Join Us-->
+        <div
+          class="joinus hidden md:block bg-[#30343c] h-[90vh] relative rounded-tl-[70px] rounded-tr-[70px]"
+        >
+          <div class="text w-140 absolute left-40 top-20">
+            <p class="text-white text-[60px]">
+              Gələcəyinizi
+              <a class="text-blue-400 text-[60px]">ABB</a>
+              ilə qurun!
+            </p>
+            <p class="w-140 text-[#c4c5c7] pt-5 pb-10 leading-6">
+              Maraqlı fürsətləri araşdırın, karyeranızı inkişaf etdirin və təsir
+              göstərin. Bu gün ABB Karyera Platformasında yenilikçi komandamıza
+              qoşulun!
+            </p>
+            <div class="join-btn flex justify-between items-center">
+              <button class="bg-white py-4 w-40">
+                Bizə qatılın <i class="fa-solid fa-arrow-right-long"></i>
+              </button>
+            </div>
+          </div>
+          <div class="img absolute right-40 top-13">
+            <img src="img/qiz-oglan.png" alt="" class="w-140" />
+          </div>
+        </div>
+
+        <!--Mobile-->
+        <div
+          class="m-joinus md:hidden bg-[#30343c] px-5 py-16 text-center relative h-screen"
+        >
+          <p class="text-white text-[28px] font-semibold">
+            Gələcəyinizi
+            <span class="text-blue-400">ABB</span>
+            ilə qurun!
+          </p>
+
+          <p class="text-[#c4c5c7] pt-4 pb-6 text-[14px] leading-6">
+            Maraqlı fürsətləri araşdırın, karyeranızı inkişaf etdirin və təsir
+            göstərin. ABB Karyera Platformasında komandamıza qoşulun!
+          </p>
+
+          <button class="bg-white py-3 px-6">
+            Bizə qatılın <i class="fa-solid fa-arrow-right-long ml-1"></i>
+          </button>
+
+          <div class="img flex justify-center absolute bottom-0 right-10">
+            <img src="img/qiz-oglan.png" alt="" class="w-72" />
+          </div>
+        </div>
+
+        <!--Companies-->
+        <div class="bg-[#30343c]">
+          <div
+            class="companies hidden md:block relative bg-white pb-20 rounded-tl-[70px] rounded-tr-[70px]"
+          >
+            <p class="text-[40px] py-20 px-20">Kampaniyalar</p>
+            <div class="comps flex justify-evenly items-center">
+              <div class="comp1 relative text-center bg-[#f5f5f6] w-100 h-97">
+                <div class="text absolute left-10 top-10">
+                  <h1 class="font-bold text-neutral-700">
+                    ABB-AZAL Miles ilə 2 qat mil kampaniyası
+                  </h1>
+                  <h5 class="text-[#484a4f] w-80">
+                    Tam 5 gün ödənişlərdən 2 qat mil qazanacaqsınız!
+                  </h5>
+                </div>
+                <div class="img absolute right-10 bottom-0">
+                  <img src="img/comp-1.png" alt="" class="w-80" />
+                </div>
+              </div>
+              <div class="comp2 relative text-center bg-[#f5f5f6] w-100 h-97">
+                <div class="text absolute left-10 top-10">
+                  <h1 class="font-bold text-neutral-700">
+                    "Taksit sayı qədər keşbek" kampaniyası
+                  </h1>
+                  <h5 class="text-[#484a4f] w-80">
+                    Taksit sayı qədər keşbek qazan!
+                  </h5>
+                </div>
+                <div class="img absolute right-10 bottom-0">
+                  <img src="img/comp-2.png" alt="" class="w-100" />
+                </div>
+              </div>
+              <div class="comp3 relative text-center bg-[#f5f5f6] w-100 h-97">
+                <div class="text absolute left-10 top-10">
+                  <h1 class="font-bold text-neutral-700">
+                    Yeni il kampaniyası :kreditə 6%-dək endirim!
+                  </h1>
+                  <h5 class="text-[#484a4f] ml-5 w-75">
+                    İllik faiz dərəcəsində toplam 6% -dək güzəşt !
+                  </h5>
+                </div>
+                <div class="img absolute right-10 bottom-0">
+                  <img src="img/comp-3.png" alt="" class="w-70" />
+                </div>
+              </div>
+            </div>
+            <div class="arrows absolute right-20 top-20 ml-10">
+              <div class="left">
+                <i class="fa-solid fa-arrow-left-long"></i>
+              </div>
+              <div class="right">
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Mobile-->
+        <div class="companies md:hidden bg-white px-5 py-10">
+          <p class="text-[26px] font-bold mb-6">Kampaniyalar</p>
+
+          <div class="flex flex-col gap-6">
+            <div class="bg-[#f5f5f6] rounded-lg p-5">
+              <h1 class="font-bold text-neutral-700 mb-2">
+                ABB-AZAL Miles ilə 2 qat mil kampaniyası
+              </h1>
+              <p class="text-[#484a4f] text-sm mb-4">
+                Tam 5 gün ödənişlərdən 2 qat mil qazanacaqsınız!
+              </p>
+              <img src="img/comp-1.png" alt="" class="img w-full" />
+            </div>
+
+            <div class="bg-[#f5f5f6] rounded-lg p-5">
+              <h1 class="font-bold text-neutral-700 mb-2">
+                "Taksit sayı qədər keşbek" kampaniyası
+              </h1>
+              <p class="text-[#484a4f] text-sm mb-4">
+                Taksit sayı qədər keşbek qazan!
+              </p>
+              <img src="img/comp-2.png" alt="" class="img w-full" />
+            </div>
+
+            <div class="bg-[#f5f5f6] rounded-lg p-5">
+              <h1 class="font-bold text-neutral-700 mb-2">
+                Yeni il kampaniyası: kreditə 6%-dək endirim!
+              </h1>
+              <p class="text-[#484a4f] text-sm mb-4">
+                İllik faiz dərəcəsində toplam 6%-dək güzəşt!
+              </p>
+              <img src="img/comp-3.png" alt="" class="img w-full" />
+            </div>
+          </div>
+        </div>
+
+        <!--Calculate-->
+        <div class="calculate hidden md:block bg-white pb-20">
+          <div class="texts pb-5">
+            <p class="text-[40px] flex justify-center items-center pb-7">
+              İndi Hesablayın
+            </p>
+            <div class="menu pb-7 flex justify-center items-center">
+              <ul class="flex gap-6">
+                <li>
+                  <a
+                    class="text-white bg-black rounded-2xl px-6 py-2"
+                    id="kredit"
+                    href=""
+                    >Kredit</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="transition delay-150 duration-200 ease-in hover:text-white hover:bg-black hover:rounded-2xl hover:px-3 hover:-translate-y-1 hover:py-2"
+                    >Depozit</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="transition delay-150 duration-200 ease-in hover:text-white hover:bg-black hover:rounded-2xl hover:px-3 hover:-translate-y-1 hover:py-2"
+                    >Avtomobil Kredit</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="transition delay-150 duration-200 ease-in hover:text-white hover:bg-black hover:rounded-2xl hover:px-3 hover:-translate-y-1 hover:py-2"
+                    >Ipoteka</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="parts flex justify-evenly items-center pb-30">
+            <div class="left ml-60">
+              <div class="row1 w-100 pb-5">
+                <div class="text flex justify-between">
+                  <p class="text-[#7a7d82]">Məbləğ</p>
+                  <p>19923 ₼</p>
+                </div>
+                <input class="w-full" type="range" name="" id="" />
+                <div class="text flex justify-between">
+                  <p class="text-[#7a7d82]">300 ₼</p>
+                  <p class="text-[#7a7d82]">50000 ₼</p>
+                </div>
+              </div>
+              <div class="row2 w-100 pb-5">
+                <div class="text flex justify-between">
+                  <p class="text-[#7a7d82]">Müddət</p>
+                  <p>12 ay</p>
+                </div>
+                <input class="w-full" type="range" name="" id="" />
+                <div class="text flex justify-between">
+                  <p class="text-[#7a7d82]">3 ay</p>
+                  <p class="text-[#7a7d82]">59 ay</p>
+                </div>
+              </div>
+              <div class="row3 w-100 pb-5">
+                <div class="text flex justify-between">
+                  <p class="text-[#7a7d82]">Faiz dərəcəsi</p>
+                  <p>12%</p>
+                </div>
+                <input class="w-full" type="range" name="" id="" />
+                <div class="text flex justify-between">
+                  <p class="text-[#7a7d82]">10,9%</p>
+                  <p class="text-[#7a7d82]">37.7 %</p>
+                </div>
+              </div>
+            </div>
+            <div class="right mr-60">
+              <div class="blue-part rounded-2xl px-20 py-5 bg-[#1b63ed]">
+                <p class="text-white text-[15px] flex justify-center">
+                  Aylıq kredit ödənişi
+                </p>
+                <p class="text-white pb-10 text-[40px] flex justify-center">
+                  1196.4 ₼
+                </p>
+                <div class="flex justify-center">
+                  <button
+                    id="davam"
+                    class="px-20 py-3 text-black bg-white rounded-2xl hover:bg-[#e0e2e4]"
+                  >
+                    Davam et
+                  </button>
+                </div>
+              </div>
+              <p class="flex justify-center text-[#7a7d82]">İlkin hesablama</p>
+            </div>
+          </div>
+          <div class="mezenne bg-white flex items-center justify-center pb-20">
+            <div class="max-w-6xl w-full flex gap-6 px-6 relative">
+              <div class="flex-1 bg-black rounded-4xl p-10 text-white">
+                <!-- Header -->
+                <div class="flex justify-between items-start">
+                  <div>
+                    <h2 class="text-3xl font-semibold">Valyuta məzənnələri</h2>
+                    <p class="text-sm text-gray-400 mt-2">
+                      Son yenilənmə: 30.12.2025
+                    </p>
+                  </div>
+                  <div class="text-sm text-gray-300 cursor-pointer">
+                    Bütün valyuta məzənnələri →
+                  </div>
+                </div>
+
+                <div class="border-t border-gray-700 my-8"></div>
+
+                <!-- Table -->
+                <div class="grid grid-cols-3 gap-y-8 text-lg">
+                  <div class="text-gray-400">Valyuta</div>
+                  <div class="text-gray-400">Alış</div>
+                  <div class="text-gray-400">Satış</div>
+
+                  <div class="font-medium">USD</div>
+                  <div class="text-2xl">1.6970</div>
+                  <div class="text-2xl">1.7020</div>
+
+                  <div class="font-medium">EUR</div>
+                  <div class="text-2xl flex items-center gap-2">
+                    1.9622 <span class="text-sm">▲</span>
+                  </div>
+                  <div class="text-2xl flex items-center gap-2">
+                    2.0322 <span class="text-sm">▲</span>
+                  </div>
+
+                  <div class="font-medium">100 RUB</div>
+                  <div class="text-2xl flex items-center gap-2">
+                    1.8400 <span class="text-sm">▼</span>
+                  </div>
+                  <div class="text-2xl flex items-center gap-2">
+                    2.5000 <span class="text-sm">▼</span>
+                  </div>
+                </div>
+              </div>
+              <div class="w-105 bg-gray-100 rounded-4xl px-10 py-15">
+                <div class="flex justify-between items-start">
+                  <h2 class="text-3xl font-semibold">
+                    Valyuta<br />konvertoru
+                  </h2>
+                  <div class="">
+                    <img src="img/convertor.png" alt="" class="w-20" />
+                  </div>
+                </div>
+                <div class="mt-10 space-y-6">
+                  <div
+                    class="flex items-center bg-white rounded-xl px-4 py-4 shadow-sm"
+                  >
+                    <input
+                      type="number"
+                      placeholder="0"
+                      class="flex-1 outline-none text-lg"
+                    />
+                    <select
+                      class="ml-4 font-medium bg-transparent outline-none"
+                    >
+                      <option>AZN</option>
+                      <option>USD</option>
+                    </select>
+                  </div>
+                  <div class="absolute bottom-37 right-50">
+                    <div
+                      class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center shadow"
+                    >
+                      ↑↓
+                    </div>
+                  </div>
+                  <div class="flex items-center bg-white rounded-xl px-4 py-4">
+                    <input
+                      type="number"
+                      placeholder="0"
+                      class="flex-1 outline-none text-lg"
+                    />
+                    <select
+                      class="ml-4 font-medium bg-transparent outline-none"
+                    >
+                      <option>USD</option>
+                      <option>AZN</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Mobile-->
+        <div
+          class="m-calculate block md:hidden bg-gray-100 px-4 py-20 space-y-6"
+        >
+          <h2 class="text-2xl font-semibold text-center">Valyuta konvertoru</h2>
+          <div class="bg-white rounded-2xl p-5 relative shadow space-y-5">
+            <div class="flex items-center border rounded-xl px-4 py-3">
+              <input
+                type="number"
+                placeholder="0"
+                class="flex-1 outline-none text-lg"
+              />
+              <select class="ml-3 bg-transparent font-medium">
+                <option>AZN</option>
+                <option>USD</option>
+              </select>
+            </div>
+            <div class="absolute bottom-15 right-40">
+              <div
+                class="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center"
+              >
+                ↑↓
+              </div>
+            </div>
+            <div class="flex items-center border rounded-xl px-4 py-3">
+              <input
+                type="number"
+                placeholder="0"
+                class="flex-1 outline-none text-lg"
+              />
+              <select class="ml-3 bg-transparent font-medium">
+                <option>USD</option>
+                <option>AZN</option>
+              </select>
+            </div>
+          </div>
+          <div class="bg-black rounded-2xl p-5 text-white space-y-4">
+            <p class="text-lg font-semibold">Valyuta məzənnələri</p>
+
+            <div class="flex justify-between text-sm">
+              <span>USD</span>
+              <span>1.6970 / 1.7020</span>
+            </div>
+            <div class="flex justify-between text-sm">
+              <span>EUR</span>
+              <span>1.9622 / 2.0322</span>
+            </div>
+
+            <div class="flex justify-between text-sm">
+              <span>100 RUB</span>
+              <span>1.8400 / 2.5000</span>
+            </div>
+          </div>
+        </div>
+
+        <!--Xidmetler-->
+        <div class="xidmetler hidden lg:block h-[80vh] bg-white mb-40">
+          <p class="flex justify-center text-[40px] pb-10">Xidmətlərimiz</p>
+          <div class="flex justify-center">
+            <div
+              class="x-cards grid grid-cols-12 grid-rows-4 gap-2 h-[60vh] w-[80vw]"
+            >
+              <!--Card1-->
+              <div
+                class="col-span-4 row-span-2 relative bg-gray-50 hover:bg-blue-600 transition duration-300 group rounded-2xl shadow-2xl border-black"
+              >
+                <div class="absolute top-5 left-5">
+                  <i
+                    class="fa-solid fa-location-dot text-blue-600 text-4xl group-hover:text-white transition duration-300"
+                  ></i>
+                </div>
+                <div class="absolute bottom-5 left-5">
+                  <p
+                    class="text-lg font-medium text-black group-hover:text-white transition duration-300"
+                  >
+                    ATM-lər və Filiallar
+                  </p>
+                </div>
+                <div
+                  class="absolute bottom-6 right-6 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+              </div>
+              <!--Card2-->
+              <div
+                class="col-span-4 row-span-2 col-start-5 row-start-1 bg-gray-50 relative hover:bg-blue-600 transition duration-300 group rounded-2xl shadow-2xl border-black"
+              >
+                <div class="absolute top-5 left-5">
+                  <i
+                    class="fa-solid fa-calendar-check text-blue-600 text-2xl group-hover:text-white transition"
+                  ></i>
+                </div>
+                <div class="absolute bottom-5 left-5">
+                  <p
+                    class="mt-10 text-lg font-medium group-hover:text-white transition"
+                  >
+                    Onlayn növbə
+                  </p>
+                </div>
+                <div
+                  class="absolute bottom-6 right-6 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+              </div>
+
+              <!--Card3-->
+              <div
+                class="col-span-4 row-span-2 col-start-9 row-start-1 bg-gray-50 relative hover:bg-blue-600 transition duration-300 group"
+              >
+                <div class="absolute top-5 left-5">
+                  <i
+                    class="fa-solid fa-headset text-blue-600 text-2xl group-hover:text-white transition"
+                  ></i>
+                </div>
+                <div class="absolute bottom-5 left-5">
+                  <p
+                    class="mt-10 text-lg font-medium group-hover:text-white transition"
+                  >
+                    Məlumat mərkəzi 24/7
+                  </p>
+                </div>
+
+                <div
+                  class="absolute bottom-6 right-6 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+              </div>
+
+              <!--Card4-->
+              <div
+                class="col-span-3 row-span-2 col-start-1 row-start-3 bg-gray-50 relative hover:bg-blue-600 transition duration-300 group rounded-2xl shadow-2xl border-black"
+              >
+                <div class="absolute top-5 left-5">
+                  <i
+                    class="fa-solid fa-file-invoice text-blue-600 text-2xl group-hover:text-white transition"
+                  ></i>
+                </div>
+                <div class="absolute bottom-5 left-5">
+                  <p
+                    class="mt-10 text-[15px] font-medium group-hover:text-white transition"
+                  >
+                    Hesabdan çıxarış sifariş et
+                  </p>
+                </div>
+                <div
+                  class="absolute bottom-6 right-6 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+              </div>
+
+              <!--Card5-->
+              <div
+                class="col-span-3 row-span-2 col-start-4 row-start-3 bg-gray-50 relative hover:bg-blue-600 transition duration-300 group rounded-2xl shadow-2xl border-black"
+              >
+                <div class="absolute top-5 left-5">
+                  <i
+                    class="fa-solid fa-coins text-blue-600 text-2xl group-hover:text-white transition"
+                  ></i>
+                </div>
+                <div class="absolute bottom-5 left-5">
+                  <p
+                    class="mt-10 text-lg font-medium group-hover:text-white transition"
+                  >
+                    Kredit ödənişi
+                  </p>
+                </div>
+                <div
+                  class="absolute bottom-6 right-6 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+              </div>
+
+              <!--Card6-->
+              <div
+                class="col-span-3 row-span-2 col-start-7 row-start-3 bg-gray-50 relative hover:bg-blue-600 transition duration-300 group rounded-2xl shadow-2xl border-black"
+              >
+                <div class="absolute top-5 left-5">
+                  <i
+                    class="fa-solid fa-hand-holding-heart text-blue-600 text-2xl group-hover:text-white transition"
+                  ></i>
+                </div>
+                <div class="absolute bottom-5 left-5">
+                  <p
+                    class="mt-10 text-lg font-medium group-hover:text-white transition"
+                  >
+                    İanə et
+                  </p>
+                </div>
+                <div
+                  class="absolute bottom-6 right-6 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+              </div>
+
+              <!--Card7-->
+              <div
+                class="col-span-3 row-span-2 col-start-10 row-start-3 bg-gray-50 relative hover:bg-blue-600 transition duration-300 group rounded-2xl shadow-2xl border-black"
+              >
+                <div class="absolute top-5 left-5">
+                  <i
+                    class="fa-solid fa-grip text-blue-600 text-2xl group-hover:text-white transition"
+                  ></i>
+                </div>
+                <div class="absolute bottom-5 left-5">
+                  <p
+                    class="mt-10 text-lg font-medium group-hover:text-white transition"
+                  >
+                    Bütün xidmətlər
+                  </p>
+                </div>
+                <div
+                  class="absolute bottom-6 right-6 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MOBILE-->
+        <div class="xidmetler lg:hidden bg-white px-4 py-10">
+          <p class="text-center text-2xl font-semibold pb-8">Xidmətlərimiz</p>
+
+          <div class="grid grid-cols-2 gap-4">
+            <!--Card1-->
+            <div
+              class="col-span-2 relative bg-gray-50 rounded-2xl shadow-lg p-6 hover:bg-blue-600 transition group"
+            >
+              <i
+                class="fa-solid fa-location-dot text-blue-600 text-3xl group-hover:text-white transition"
+              ></i>
+
+              <p
+                class="mt-6 text-lg font-medium group-hover:text-white transition"
+              >
+                ATM-lər və Filiallar
+              </p>
+              <div
+                class="absolute bottom-6 right-6 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </div>
+            </div>
+
+            <!--Card2-->
+            <div
+              class="relative bg-gray-50 rounded-2xl shadow-lg p-5 hover:bg-blue-600 transition group"
+            >
+              <i
+                class="fa-solid fa-calendar-check text-blue-600 text-2xl group-hover:text-white transition"
+              ></i>
+              <p class="mt-6 text-base font-medium group-hover:text-white">
+                Onlayn növbə
+              </p>
+              <div
+                class="absolute top-4 right-2 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </div>
+            </div>
+
+            <!--Card3-->
+            <div
+              class="relative bg-gray-50 rounded-2xl shadow-lg p-5 hover:bg-blue-600 transition group"
+            >
+              <i
+                class="fa-solid fa-headset text-blue-600 text-2xl group-hover:text-white"
+              ></i>
+              <p class="mt-4 text-base font-medium group-hover:text-white">
+                Məlumat mərkəzi 24/7
+              </p>
+              <div
+                class="absolute top-4 right-2 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </div>
+            </div>
+
+            <!--Card4-->
+            <div
+              class="relative bg-gray-50 rounded-2xl shadow-lg p-5 hover:bg-blue-600 transition group"
+            >
+              <i
+                class="fa-solid fa-file-invoice text-blue-600 text-2xl group-hover:text-white"
+              ></i>
+              <p class="mt-4 text-base font-medium group-hover:text-white">
+                Hesabdan çıxarış sifariş et
+              </p>
+              <div
+                class="absolute top-4 right-2 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </div>
+            </div>
+
+            <!--Card5-->
+            <div
+              class="relative bg-gray-50 rounded-2xl shadow-lg p-5 hover:bg-blue-600 transition group"
+            >
+              <i
+                class="fa-solid fa-coins text-blue-600 text-2xl group-hover:text-white"
+              ></i>
+              <p class="mt-4 text-base font-medium group-hover:text-white">
+                Kredit ödənişi
+              </p>
+              <div
+                class="absolute top-4 right-2 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </div>
+            </div>
+
+            <!--Card6-->
+            <div
+              class="relative bg-gray-50 rounded-2xl shadow-lg p-5 hover:bg-blue-600 transition group"
+            >
+              <i
+                class="fa-solid fa-hand-holding-heart text-blue-600 text-2xl group-hover:text-white"
+              ></i>
+              <p class="mt-4 text-base font-medium group-hover:text-white">
+                İanə et
+              </p>
+              <div
+                class="absolute top-4 right-2 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </div>
+            </div>
+
+            <!--Card7-->
+            <div
+              class="relative bg-gray-50 rounded-2xl shadow-lg p-5 hover:bg-blue-600 transition group"
+            >
+              <i
+                class="fa-solid fa-grip text-blue-600 text-2xl group-hover:text-white"
+              ></i>
+              <p class="mt-4 text-base font-medium group-hover:text-white">
+                Bütün xidmətlər
+              </p>
+              <div
+                class="absolute top-4 right-2 w-10 h-10 rounded-full bg-white flex items-center justify-center"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Abb Mobile-->
+        <div
+          class="ad bg-[#257fed] text-white h-[80vh] relative rounded-tl-[70px] rounded-tr-[70px] hidden lg:block"
+        >
+          <div class="parts w-[80%] flex justify-evenly items-center mx-auto">
+            <div class="left mr-100 mt-20">
+              <p class="text-[60px]">ABB Mobile</p>
+              <p class="w-120 text-[#fbfbfb] pt-5 pb-13">
+                4.9 reytinqə malik innovativ və təhlükəsiz bank mobil tətbiqi!
+              </p>
+              <div class="qr flex justify-evenly items-center pr-30">
+                <div class="ad-img">
+                  <img
+                    src="img/qr.png"
+                    alt=""
+                    class="w-44 rounded-xl border-white"
+                  />
+                </div>
+                <div class="text ml-7">
+                  <p class="w-48 mb-3 text-[#c2dafa] text-[14px]">
+                    ABB mobile yükləmək üçün QR kodu skan edin.
+                  </p>
+                  <a href=""><i class="fa-brands fa-apple text-[27px]"></i></a>
+                  <a href=""
+                    ><i class="fa-brands fa-google-play text-[22px]"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="ad-img2 absolute -top-20 right-20">
+                <img src="img/m-ad.png" alt="" class="w-150" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MOBILE-->
+        <div
+          class="ad-mobile bg-[#257fed] text-white h-[80vh] relative rounded-tl-[40px] rounded-tr-[40px] block lg:hidden"
+        >
+          <div class="flex justify-center gap-4 pt-8">
+            <i class="fa-brands fa-apple text-[33px] "></i>
+            <i class="fa-brands fa-google-play text-2xl pt-0.5"></i>
+          </div>
+          <div class="text-center px-6 mt-6">
+            <p class="text-4xl font-semibold">ABB mobile</p>
+            <p class="text-sm mt-4 text-[#eaf2ff]">
+              4.9 reytinqə malik innovativ və təhlükəsiz bank mobil tətbiqi!
+            </p>
+          </div>
+          <div class="flex justify-center mt-10 relative">
+            <img src="img/m-ad.png" alt="" class="w-65" />
+        </div>
+      </div>
+
+        <!--News and Mailiyye-->
+      <div  class="bg-[#257fed] hidden lg:block">
+            <div class="bg-[#f0f0f0] rounded-tl-[90px]  rounded-tr-[90px]">
+                <div class="news w-[80%] mx-auto  pb-30">
+                <div class="head flex justify-between items-center p-10 pt-20 ">
+                    <div class="news-text">
+                        <p class="text-[50px]">Ən aktual xəbərlər</p>
+                    </div>
+                    <div class="w-icon">
+                        <p class="text-[15px] text-[#134fc2] hover:underline hover:underline-offset-1"> Bütün xəbərlər →</p>
+                    </div>
+                </div>
+                <div class="news-cards flex justify-evenly items-center gap-8">
+                    <div class="n1 hover:underline hover:underline-offset-1 pb-6">
+                        <img src="img/n1.png" alt="" class="w-200 rounded-2xl pb-3">
+                        <p>ABB-dən daha 3 hesabat!</p>
+                        <p>30.12.2025</p>
+                    </div>
+                    <div class="n2 hover:underline hover:underline-offset-1">
+                        <img src="img/n2.png" alt="" class="w-200 rounded-2xl pb-3" >
+                        <p class="w-70">ABB növbəti dəfə yüksək təhlükəsizlik sertifikatı aldı!</p>
+                        <p>19.12.2025</p>
+                    </div>
+                    <div class="n3">
+                        <div class="link1 pb-7">
+                            <p class="w-75 pb-3 hover:underline hover:underline-offset-1">Rəşid Behbudovun itmiş rəsmi ABB-nin dəstəyi ilə yenidən yaradıldı!</p>
+                            <p>18.12.2025</p>
+                            <hr>
+                        </div>
+                    
+                        <div class="link2 pb-7">
+                            <p class="w-100 pb-3 hover:underline hover:underline-offset-1">ABB-də nağd kreditə 6%-dək endirim!</p>
+                            <p>18.12.2025</p>
+                            <hr>
+                        </div>
+                    
+                        <div class="link3 pb-7">
+                            <p class="w-100 pb-3 hover:underline hover:underline-offset-1">“ABB-Qarabağ” kobrend kartı buraxılır!</p>
+                            <p>15.12.2025</p>
+                        </div>
+                    </div>
+                </div>   
+               </div>
+                <div class="mailiyye hidden lg:block">
+                    <div class="h-text">
+                        <p class="text-[50px] flex justify-center font-semibold mx-auto pb-20">Maliyyə məsələlərinizə qayğı göstəririk</p>
+                    </div>
+                    <div class="mailiyye-cards flex justify-center pb-20 mx-auto w-[80%] gap-8"  >
+                        <div class="card1 bg-white text-center w-100 h-100 relative rounded-3xl">
+                            <p class=" text-[20px] pt-10 pb-5" >Pulun effektiv idarə edilməsi</p>
+                            <p class="text-[14px] pb-5">Gələcəyinizi etibarlı təhlükəsizlik həllərimizlə qoruyun.</p>
+                            <button id="mailiyye1" class="text-white pb-10" >Daha çox</button>
+                            <img src="img/c-12.png" alt="" class="w-52 absolute bottom-0 right-20 mb-10">
+                        </div>
+                    <div class="card2 bg-white text-center w-100 h-100 relative rounded-3xl">
+                            <p class=" text-[20px] pt-10 pb-5" >Gələcək üçün planlar</p>
+                            <div class="pl-10 w-[90%]">
+                                <p class="text-[13px] pb-5 ">Gələcək planlarınız və ehtiyaclarınız üçün sizə uyğun maliyyə dəstəyi alın.</p>
+                            </div>
+                            
+                            <button id="mailiyye1" class="text-white pb-10">Daha çox</button>
+                            <img src="img/c-13.png" alt="" class="w-52 absolute bottom-0 right-20 mb-10">
+                        </div>
+                        <div class="card3 bg-white text-center w-100 h-100 relative rounded-3xl">
+                            <p class=" text-[20px] pt-10 pb-5" >Maliyyə təhlükəsizliyi</p>
+                            <p class="text-[14px] pb-5">Pulunuzu dələduzlardan qorumaq üçün bu tövsiyələrə əməl edin.</p>
+                            <button id="mailiyye1" class="text-white pb-10">Daha çox</button>
+                            <img src="img/c-14.png" alt="" class="w-52 absolute bottom-0 right-20 mb-10">
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      
+      <!-- MOBILE -->
+    <div class="bg-[#257fed] block lg:hidden">
+    <div class="bg-[#f0f0f0] rounded-tl-[50px] rounded-tr-[50px] px-5 pt-10 pb-16">
+        <div class="flex justify-between items-center mb-6">
+        <p class="text-xl font-semibold pl-3">Ən aktual <br> xəbərlər</p>
+        <p class="text-sm text-[#134fc2] hover:underline hover:underline-offset-1">Bütün xəbərlər →</p>
+        </div>
+        <div class="m-news flex flex-col gap-6">
+        <div>
+            <img src="img/n1.png" class="rounded-xl mb-3" />
+            <p class="font-medium hover:underline hover:underline-offset-1">ABB-dən daha 3 hesabat!</p>
+            <p class="text-sm text-gray-500 hover:underline hover:underline-offset-1">30.12.2025</p>
+        </div>
+
+        <div>
+            <img src="img/n2.png" class="rounded-xl mb-3" />
+            <p class="font-medium hover:underline hover:underline-offset-1">
+            ABB növbəti dəfə yüksək təhlükəsizlik sertifikatı aldı!
+            </p>
+            <p class="text-sm text-gray-500 hover:underline hover:underline-offset-1">19.12.2025</p>
+        </div>
+        </div>
+
+        <!-- MALİYYƏ -->
+        <div class="mt-14">
+        <p class="text-2xl font-semibold text-center mb-8">
+            Maliyyə məsələlərinizə qayğı göstəririk
+        </p>
+        <div class="flex flex-col gap-6">
+            <div class="bg-white rounded-3xl p-6 text-center relative">
+            <p class="text-lg font-medium mb-2">
+                Pulun effektiv idarə edilməsi
+            </p>
+            <p class="text-sm text-gray-600 mb-6">
+                Gələcəyinizi etibarlı təhlükəsizlik həllərimizlə qoruyun.
+            </p>
+            <button id="mailiyye1" class="font-medium text-white">Daha çox</button>
+            <img src="img/c-12.png" class="w-32 mx-auto mt-6" />
+            </div>
+            <div class="bg-white rounded-3xl p-6 text-center relative">
+            <p class="text-lg font-medium mb-2">
+                Gələcək üçün planlar
+            </p>
+            <p class="text-sm text-gray-600 mb-6">
+                Gələcək planlarınız üçün uyğun maliyyə dəstəyi.
+            </p>
+            <button  id="mailiyye1" class="font-medium text-white">Daha çox</button>
+            <img src="img/c-13.png" class="w-32 mx-auto mt-6" />
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white rounded-3xl p-6 text-center relative">
+            <p class="text-lg font-medium mb-2">
+                Maliyyə təhlükəsizliyi
+            </p>
+            <p class="text-sm text-gray-600 mb-6">
+                Pulunuzu dələduzlardan qorumaq üçün tövsiyələr.
+            </p>
+            <button id="mailiyye1" class=" text-white font-medium">Daha çox</button>
+            <img src="img/c-14.png" class="w-32 mx-auto mt-6" />
+            </div>
+
+        </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!--Rate Us-->
+    <div class="rateus bg-white hidden lg:flex justify-between mx-40 py-15">
+        <div class="texts">
+            <p class="text-[40px] font-semibold">Səhifəni <a class="text-[#74a9f0] text-[40px]font-semibold">dəyərləndirin</a></p>
+            <p class="text-[#7a7d82]" >Fikirlərinizi bizimlə bölüşün. Rəyləriniz dəyərlidir!</p>
+        </div>
+        <div class="starts text-[30px] bg-[#f5f5f6] rounded-3xl px-10 py-5 ">
+            <i class="fa-solid fa-star text-[#a2a2a4] active:text-[#257fed]"></i>
+            <i class="fa-solid fa-star text-[#a2a2a4] active:text-[#257fed]"></i>
+            <i class="fa-solid fa-star text-[#a2a2a4] active:text-[#257fed]"></i>
+            <i class="fa-solid fa-star text-[#a2a2a4] active:text-[#257fed]"></i>
+            <i class="fa-solid fa-star text-[#a2a2a4] active:text-[#257fed]"></i>
+        </div>
+    </div>
+
+    <!-- MOBILE-->
+    <div class="bg-white block lg:hidden px-5 py-10">
+    <div class="flex flex-col items-center text-center gap-6">
+        <div>
+        <p class="text-2xl font-semibold">
+            Səhifəni
+            <span class="text-[#74a9f0]">dəyərləndirin</span>
+        </p>
+        <p class="text-sm text-[#7a7d82] mt-2">
+            Fikirlərinizi bizimlə bölüşün. Rəyləriniz dəyərlidir!
+        </p>
+        </div>
+        <div class="flex gap-3 bg-[#f5f5f6] rounded-2xl px-6 py-4 text-2xl">
+        <i class="fa-solid fa-star text-[#a2a2a4] active:text-[#257fed]"></i>
+        <i class="fa-solid fa-star text-[#a2a2a4] active:text-[#257fed]"></i>
+        <i class="fa-solid fa-star text-[#a2a2a4] active:text-[#257fed]"></i>
+        <i class="fa-solid fa-star text-[#a2a2a4] active:text-[#257fed]"></i>
+        <i class="fa-solid fa-star text-[#a2a2a4] active:text-[#257fed]"></i>
+        </div>
+    </div>
+    </div>
+
+    </main>
+    <footer class="bg-[#323640]">
+        <div class="hidden lg:block">
+            <div class="part1 flex justify-evenly mx-20 pb-10">
+            <div class="left text-white">
+                <div class="f-img">
+                    <img src="img/logo2d.png" alt="" class="w-24 py-10">
+                </div>
+                <div class="rows">
+                    <div class="row1 flex gap-10 pb-5">
+                        <div class="phone">
+                           <p class="text-[#c4c5c7] text-[13px]">Tel:</p>
+                           <p class="text-[15px]" >+994 12 493 00 91</p>
+                        </div>
+                         <div class="email">
+                            <p class="text-[#c4c5c7] text-[13px]">E-poçt:</p>
+                             <p class="text-[15px]">info@abb-bank.az</p>
+                         </div>
+                   </div>
+                    <div class="row2 flex gap-10">
+                            <div class="faks">
+                                <p class="text-[#c4c5c7] text-[13px]">Faks:</p>
+                                <p class="text-[15px]">+994 12 493 00 91</p>
+                            </div>
+                            <div class="location">
+                                <p class="text-[#c4c5c7] text-[13px]">Ünvan:</p>
+                                <p class="w-70 text-[15px]" >67, Nizami küç., AZ1005 Bakı, Azərbaycan</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right flex justify-evenly gap-6  ">
+                <div class="d1 relative px-40 py-7 bg-[#2f333b] my-7 rounded-2xl">
+                    <div class="text absolute left-5 top-5">
+                        <p class="text-white pb-3">ABB mobile yüklə</p>
+                        <div class="icons flex gap-2">
+                            <i class="fa-brands fa-apple text-white px-4 py-2 flex justify-center items-center bg-black rounded-full"></i>  
+                         <i class="fa-brands fa-google-play text-white px-4 py-2 flex justify-center items-center bg-black rounded-full" ></i>
+                        </div>
+                        
+                    </div>
+                    
+                    <button id="f-btn" class="absolute left-5 bottom-5 rounded-xl"><i class="fa-solid fa-calendar-check "></i>Tətbiqi yüklə</button>
+                    <img src="img/f-img.png" alt="" class="w-44 absolute right-0 bottom-0">
+                </div>
+                <div class="d2 text-white relative px-30 py-7 bg-[#2f333b] my-7 rounded-2xl">
+                    <div class="text absolute left-5 top-5">
+                        <p class="pb-2">ABB Karyera</p>
+                        <p class="text-[11px]">Uğur hekayənizi ABB ilə yazın</p>
+                    </div>
+                    
+                    <button id="f-btn1" class=" text-[13px] absolute left-5 bottom-5 rounded-lg">Karyera portalı ></button>
+                </div>
+            </div>
+        </div>
+        <hr class="w-290 flex justify-center mx-auto">
+        <div class="part2 flex justify-evenly mx-5 pt-10 pb-10">
+            <div class="col1">
+                <p class="font-semibold text-white pb-2">Fərdi</p>
+               <div class="text-[#c2c3c5] text-[12px]">
+                <p class="pb-1">Bütün kreditlər</p>
+                <p class="pb-1">Kartlar</p>
+                <p class="pb-1">Əmanətlər</p>
+                <p class="pb-1">Hesablar</p>
+                <p class="pb-1">İpoteka</p>
+                <p class="pb-1">Keşbek</p>
+                <p class="pb-1">Kampaniyalar</p>
+                <p class="pb-1">Bütün əməliyyatlar</p>
+                <p class="pb-1">Onlayn xidmətlər</p>
+                <p class="pb-1">ABB Prime</p>
+                <p class="pb-1">Tariflər, Sənədlər və Resurslar</p>
+               </div>
+            </div>
+            <div class="col2">
+                 <p class="font-semibold text-white pb-2">Biznes</p>
+                <div class="text-[#c2c3c5] text-[12px]">
+                    <p class="pb-1">Korporativ</p>
+                    <p class="pb-1">Kiçik və orta biznes</p>
+                    <p class="pb-1">Mikro fərdi sahibkar</p>
+                    <p class="pb-1">İnternet Bankçılıq</p>
+                </div>
+            </div>
+            <div class="col3">
+                <p class="font-semibold text-white pb-2" >Haqqımızda</p>
+                <div class="text-[#c2c3c5] text-[12px]">
+                    <p class="pb-1">Bank haqqında</p>
+                    <p class="pb-1">Rəhbərlik</p>
+                    <p class="pb-1">İdarəetmə və Komitələr</p>
+                    <p class="pb-1">Tariflər, Sənədlər və Resurslar</p>
+                    <p class="pb-1">Siyasətlərimiz</p>
+                    <p class="pb-1">Korporativ təqdimat</p>
+                    <p class="pb-1" class="pb-1">Araşdırma</p>
+                    <p class="pb-1">Hesabatlar</p>
+                    <p class="pb-1">Təklif və İradlar</p>
+                    <p class="pb-1">İnvestisiya bankçılığı</p>
+                    <p class="pb-1">Brend Mərkəzi</p>
+                    <p class="pb-1">Satınalmalar</p>
+                </div>
+            </div>
+            <div class="col4">
+                <p class="font-semibold text-white">İnvestorlarla əlaqə</p>
+            </div>
+        </div>
+         <hr class="w-290 flex justify-center mx-auto">
+         <div class="part3 h-17.5 bg-linear-to-r from-[#1b1f26] to-[#2a2f38] 
+            flex items-center justify-between px-10 text-[#cfcfcf] text-sm mx-30">
+            <div class="flex items-center gap-4 text-lg">
+                <a href="#" class="hover:text-white transition">
+                <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="hover:text-white transition">
+                <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" class="hover:text-white transition">
+                <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="hover:text-white transition">
+                <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="hover:text-white transition">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="opacity-80 text-center">
+                © ABB 2025 – Bütün hüquqlar qorunur
+            </div>
+            <div class="flex items-center gap-4">
+                <img src="img/logo1.webp" class="h-6" alt="">
+                <img src="img/f-logo2.png" class="h-6" alt="">
+                <img src="img/logo4.webp" class="h-6" alt="">
+                <img src="img/logo5.svg" class="h-6" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="block lg:hidden bg-linear-to-b from-[#1b1f26] to-[#2a2f38] text-white px-5 pt-8 pb-4">
+            <div class="pb-6">
+                <img src="img/logo2d.png" class="w-24" alt="">
+            </div>
+            <div class="space-y-6 text-sm">
+                <div>
+                <p class="text-[#c4c5c7] text-xs">Tel:</p>
+                <p>+994 12 493 00 91</p>
+                </div>
+                <div>
+                <p class="text-[#c4c5c7] text-xs">E-poçt:</p>
+                <p>info@abb-bank.az</p>
+                </div>
+                <div>
+                <p class="text-[#c4c5c7] text-xs">Faks:</p>
+                <p>+994 12 493 00 91</p>
+                </div>
+                <div>
+                <p class="text-[#c4c5c7] text-xs">Ünvan:</p>
+                <p>67, Nizami küç., AZ1005 Bakı, Azərbaycan</p>
+                </div>
+            </div>
+            <hr class="my-6 border-white/20">
+            <div class="space-y-4 text-sm font-semibold">
+
+                <div class="flex justify-between items-center">
+                <p>FƏRDİ</p>
+                <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="flex justify-between items-center">
+                <p>BİZNES</p>
+                <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="flex justify-between items-center">
+                <p>HAQQIMIZDA</p>
+                <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="flex justify-between items-center">
+                <p>İNVESTORLARLA ƏLAQƏ</p>
+                <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+            </div>
+            <div class="mt-8 bg-[#2f333b] rounded-2xl p-5 relative overflow-hidden">
+                <p class="font-semibold pb-3">ABB mobile yüklə</p>
+
+                <div class="flex gap-3 pb-4">
+                <i class="fa-brands fa-apple flex justify-center items-center bg-black px-4 py-2 rounded-full"></i>
+                <i class="fa-brands fa-google-play flex justify-center items-center bg-black px-4 py-2 rounded-full"></i>
+                </div>
+
+                <img src="img/f-img.png" class="w-32 absolute right-0 bottom-0" alt="">
+            </div>
+            <div class="flex justify-center gap-5 text-lg mt-8">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p class="text-center text-xs text-[#cfcfcf] mt-4 pb-5" >
+                © ABB 2025 – Bütün hüquqlar qorunur
+            </p>
+            <div class="flex justify-center items-center gap-4">
+                            <img src="img/logo1.webp" class="h-6" alt="">
+                            <img src="img/f-logo2.png" class="h-6" alt="">
+                            <img src="img/logo4.webp" class="h-6" alt="">
+                            <img src="img/logo5.svg" class="h-6" alt="">
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
